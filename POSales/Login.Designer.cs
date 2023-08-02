@@ -193,9 +193,9 @@ namespace POSales
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(250, 108);
+            this.pictureBox2.Location = new System.Drawing.Point(302, 113);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(196, 59);
+            this.pictureBox2.Size = new System.Drawing.Size(79, 63);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;

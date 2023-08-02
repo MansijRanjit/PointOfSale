@@ -67,7 +67,7 @@ namespace POSales
             else month = "December";
             lblMonth.Text= month;   
 
-            SqlCommand cm = new SqlCommand("SELECT Top 1 pdesc, sum(qty)as SQty FROM vwTopSelling  where status LIKE 'Sold' and sdate like '_____"+date+"___' group by pdesc order by SQty desc", cn);
+            SqlCommand cm = new SqlCommand("SELECT Top 1 pdesc, sum(qty)as SQty FROM vwTopSelling  where status LIKE 'Sold' and sdate like '______"+date+"___' group by pdesc order by SQty desc", cn);
             SqlDataReader dr = cm.ExecuteReader();
             dr.Read();
             if (dr.HasRows)
